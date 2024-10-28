@@ -1,0 +1,7 @@
+services:
+  oracle:
+    build:
+      context: ./docker/oracle
+      dockerfile: Dockerfile
+    ports:
+      - 9090:9090 # Cockpit
